@@ -1,0 +1,19 @@
+Id: Deezer.Deezer
+Publisher: Deezer
+Name: Deezer
+AppMoniker: deezer
+Version: 4.20.21
+License: Copyright (c) 2020 Deezer
+LicenseUrl: https://www.deezer.com/legal/cgu
+Description: Deezer is a French online music streaming service.
+Homepage: https://www.deezer.com
+Tags: deezer, music
+InstallerType: exe
+
+Installers:
+  - Arch: x86
+    Url: https://e-cdn-content.dzcdn.net/builds/deezer-desktop/8cF2rAuKxLcU1oMDmCYm8Uiqe19Ql0HTySLssdzLkQ9ZWHuDTp2JBtQOvdrFzWPA/win32/x86/4.20.21/DeezerDesktopSetup_4.20.21.exe
+    Sha256: B0D5069C2C4B34D1B6FB37A345692DA7164FE97CC63D95A08561B1CFECC34CE8
+    Switches:
+      Silent: /S
+      SilentWithProgress: /S
